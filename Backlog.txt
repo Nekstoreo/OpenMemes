@@ -1,10 +1,23 @@
 Backlog OpenMemes
-- Diseñar la Base de Datos
-- Diseñar la aplicacion web (Frontend)
-- Montar el servidor en Heroku
-- Desarrollar la logica de la aplicacion
-- Establecer la conexion con la app (Backend)
-- Conectar la API (OpenAI, Memegen) con la aplicacion
-- Inicio de Sesion
-- Mejorar la seguridad
-- Pruebas 
++ Diseñar la Base de Datos
+    - Crear la base de datos en Firebase
+    - Definir las tablas
+    - Crear la relaciones entre tablas, constraints, indices
++ Crear la aplicacion web (Frontend)
+    - Crear el diseño de la interfaz en Figma
+    - Crear el prototipo en Flutter
+    - Mejorar detalles y visualizacion en la app
++ Inicio de Sesion
++ Montar el servidor en Heroku
+    - Establecer requisitos del servidor
+    - Desarrollar la logica de la aplicacion
+    - Establecer la conexion con la app (Backend)
++ Integrar las APIs 
+    - Conectar la API OpenAI para procesar el texto
+    - Conectar la API Memegen para generar el meme
+
+Epicas
+- Gestion de usuarios
+- Generacion de memes
+- Interfaz de usuario (UI)
+- Almacenamiento de datos
