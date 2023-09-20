@@ -1,0 +1,10 @@
+Backlog OpenMemes
+- Diseñar la Base de Datos
+- Diseñar la aplicacion web (Frontend)
+- Montar el servidor en Heroku
+- Desarrollar la logica de la aplicacion
+- Establecer la conexion con la app (Backend)
+- Conectar la API (OpenAI, Memegen) con la aplicacion
+- Inicio de Sesion
+- Mejorar la seguridad
+- Pruebas 
