@@ -8,7 +8,6 @@ Usaremos Flutter para crear la aplicación móvil, la cual se encargará de envi
 Usaremos Firebase Storage para almacenar las imágenes generadas.
 - Heroku (Cloud):
 Usaremos Heroku para alojar el servidor que se encargará de generar las imágenes.
-# Apis
 - Memegen API https://github.com/jacebrowning/memegen:
 Usaremos esta API para generar memes mediante programación basados únicamente en las URL solicitadas .
 - API OpenAI:
