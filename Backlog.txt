@@ -1,6 +1,6 @@
 Backlog OpenMemes
 + Almacenamiento de datos
-    - Crear la base de datos en Firebase
+    - Crear la base de datos en Firetore
     - Definir las tablas
     - Crear la relaciones entre tablas, constraints, indices
 + Interfaz de usuario (UI/UX)
