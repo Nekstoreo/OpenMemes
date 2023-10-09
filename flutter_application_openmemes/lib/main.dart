@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'login_page.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp( const MainApp());
 }
 
 class MainApp extends StatelessWidget {
@@ -10,8 +10,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const LoginPage(),
+    return  const MaterialApp(
+      title: 'OpenMemes',
+      home: LoginPage(),
     );
   }
 }

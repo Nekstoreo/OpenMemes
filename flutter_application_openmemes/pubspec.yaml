@@ -19,4 +19,14 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/bglogin.jpg
+    - images/bglogin.png
+    - images/bgmainpage.jpeg
+  
+  fonts:
+    - family: LexendDeca
+      fonts:
+        - asset: fonts/LexendDeca-Regular.ttf
+        - asset: fonts/LexendDeca-VariableFont_wght.ttf
+
+
+
