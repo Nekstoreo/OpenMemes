@@ -21,6 +21,8 @@ flutter:
   assets:
     - images/bglogin.png
     - images/bgmainpage.jpeg
+    - images/bggenpage.jpg
+    - images/wojak.png
   
   fonts:
     - family: LexendDeca
