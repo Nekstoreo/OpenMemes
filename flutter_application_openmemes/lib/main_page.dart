@@ -74,7 +74,6 @@ class MainPage extends StatelessWidget {
                     fontSize: 16,
                     fontFamily: 'LexendDeca',
                     fontWeight: FontWeight.normal,
-                    height: 1.0,
                   ),
                 ),
                 icon: Icon(

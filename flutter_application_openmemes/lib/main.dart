@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_openmemes/generator_page.dart';
+import 'package:flutter_application_openmemes/login_page.dart';
 
 void main() {
   runApp( const MainApp());
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  const MaterialApp(
       title: 'OpenMemes',
-      home: GeneratorPage(),
+      home: LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }

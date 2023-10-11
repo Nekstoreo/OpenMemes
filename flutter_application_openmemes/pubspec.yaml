@@ -22,7 +22,10 @@ flutter:
     - images/bglogin.png
     - images/bgmainpage.jpeg
     - images/bggenpage.jpg
+    - images/bgmemepage.jpeg
     - images/wojak.png
+    - images/meme.png
+    
   
   fonts:
     - family: LexendDeca

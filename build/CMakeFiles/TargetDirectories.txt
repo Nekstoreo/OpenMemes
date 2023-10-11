@@ -1,0 +1,3 @@
+/home/nekstoreo/Repositorios/OpenMemes/build/CMakeFiles/flutter_assemble.dir
+/home/nekstoreo/Repositorios/OpenMemes/build/CMakeFiles/edit_cache.dir
+/home/nekstoreo/Repositorios/OpenMemes/build/CMakeFiles/rebuild_cache.dir

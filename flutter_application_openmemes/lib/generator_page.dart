@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_openmemes/meme_page.dart';
 
 class GeneratorPage extends StatelessWidget {
   const GeneratorPage({Key? key}) : super(key: key);
@@ -41,13 +42,12 @@ class GeneratorPage extends StatelessWidget {
                       maxLines: null,
                       expands: true,
                       textAlignVertical: TextAlignVertical.top,
-                      maxLength: 100,
+                      maxLength: 200,
                       style: TextStyle(
                         color: Colors.black38,
                         fontSize: 20,
                         fontFamily: 'LexendDeca',
                         fontWeight: FontWeight.w400,
-                        height: 0,
                       ),
                       decoration: InputDecoration(
                         hintText: 'Escribe aquí...',
@@ -56,7 +56,6 @@ class GeneratorPage extends StatelessWidget {
                           fontSize: 20,
                           fontFamily: 'LexendDeca',
                           fontWeight: FontWeight.w400,
-                          height: 0,
                         ),
                         fillColor: Colors.white,
                         filled: true,
@@ -69,7 +68,11 @@ class GeneratorPage extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(top: 20, bottom: 60),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const MemePage()), );
+                      },
                       style: ElevatedButton.styleFrom(
                         minimumSize: const Size(240, 60),
                         backgroundColor: const Color(0xFFDEC6C6),
