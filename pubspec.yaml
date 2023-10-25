@@ -1,0 +1,41 @@
+name: flutter_application_openmemes
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.10.0
+  firebase_auth: ^4.11.1
+  firebase_core: ^2.18.0
+  flutter:
+    sdk: flutter
+  logging: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/bglogin.png
+    - images/bgmainpage.jpeg
+    - images/bggenpage.jpg
+    - images/bgmemepage.jpeg
+    - images/wojak.png
+    - images/meme.png
+    
+  
+  fonts:
+    - family: LexendDeca
+      fonts:
+        - asset: fonts/LexendDeca-Regular.ttf
+        - asset: fonts/LexendDeca-VariableFont_wght.ttf
+
+
+

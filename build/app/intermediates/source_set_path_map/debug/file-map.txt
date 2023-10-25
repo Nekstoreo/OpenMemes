@@ -1,0 +1,8 @@
+com.example.flutter_application_openmemes.app-debug-0 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/android/app/src/debug/res
+com.example.flutter_application_openmemes.app-main-1 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/android/app/src/main/res
+com.example.flutter_application_openmemes.app-pngs-2 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/pngs/debug
+com.example.flutter_application_openmemes.app-resValues-3 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/resValues/debug
+com.example.flutter_application_openmemes.app-rs-4 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/rs/debug
+com.example.flutter_application_openmemes.app-mergeDebugResources-5 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.flutter_application_openmemes.app-mergeDebugResources-6 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.flutter_application_openmemes.app-merged_res-7 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/merged_res/debug

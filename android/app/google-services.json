@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576978647108",
+    "project_id": "openmemes-305af",
+    "storage_bucket": "openmemes-305af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576978647108:android:55f956e83d2b93da6d6411",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_openmemes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFbr545Z1WAdtwo1NmtZR1fd7fDN9mwp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
