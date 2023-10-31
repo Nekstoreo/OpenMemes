@@ -1,8 +1,8 @@
-# Install script for directory: /home/nekstoreo/Repositorios/flutter_application_openmemes/linux
+# Install script for directory: /home/nekstoreo/Repositorios/openmemes/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,83 +44,83 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/nekstoreo/Repositorios/flutter_application_openmemes/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/local/flutter_application_openmemes" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/flutter_application_openmemes")
+  if(EXISTS "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/flutter_application_openmemes"
+         FILE "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/flutter_application_openmemes")
+   "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local" TYPE EXECUTABLE FILES "/home/nekstoreo/Repositorios/flutter_application_openmemes/build/linux/x64/debug/intermediates_do_not_run/flutter_application_openmemes")
-  if(EXISTS "$ENV{DESTDIR}/usr/local/flutter_application_openmemes" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/flutter_application_openmemes")
+  file(INSTALL DESTINATION "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/intermediates_do_not_run/openmemes")
+  if(EXISTS "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/usr/local/flutter_application_openmemes"
-         OLD_RPATH "/home/nekstoreo/Repositorios/flutter_application_openmemes/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes"
+         OLD_RPATH "/home/nekstoreo/Repositorios/openmemes/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/flutter_application_openmemes")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/openmemes")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/data/icudtl.dat")
+   "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/data" TYPE FILE FILES "/home/nekstoreo/Repositorios/flutter_application_openmemes/linux/flutter/ephemeral/icudtl.dat")
+  file(INSTALL DESTINATION "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/nekstoreo/Repositorios/openmemes/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/libflutter_linux_gtk.so")
+   "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/lib" TYPE FILE FILES "/home/nekstoreo/Repositorios/flutter_application_openmemes/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+  file(INSTALL DESTINATION "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/nekstoreo/Repositorios/openmemes/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/usr/local/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/data/flutter_assets")
+   "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local/data" TYPE DIRECTORY FILES "/home/nekstoreo/Repositorios/flutter_application_openmemes/build//flutter_assets")
+  file(INSTALL DESTINATION "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/nekstoreo/Repositorios/openmemes/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nekstoreo/Repositorios/flutter_application_openmemes/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
@@ -132,5 +132,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nekstoreo/Repositorios/flutter_application_openmemes/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

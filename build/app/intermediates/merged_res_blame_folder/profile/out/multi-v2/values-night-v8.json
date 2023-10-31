@@ -4,7 +4,7 @@
             "outputFile": "com.example.flutter_application_openmemes.app-mergeProfileResources-5:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/nekstoreo/Repositorios/openmemes/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

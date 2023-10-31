@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_openmemes/main_page.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:logging/logging.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
-
+  bool passwordVisible = true;
   LoginPage({Key? key}) : super(key: key);
 
   @override
@@ -59,20 +58,32 @@ class LoginPage extends StatelessWidget {
               padding: const EdgeInsets.only(left: 20, right: 20),
               child: TextFormField(
                 controller: passwordController,
+                obscureText: passwordVisible,
                 style: const TextStyle(
                   color: Color.fromARGB(255, 0, 0, 0),
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'LexendDeca',
                 ),
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   hintText: "Ingresa tu Contraseña",
                   fillColor: Colors.white,
                   filled: true,
-                  border: OutlineInputBorder(
+                  border: const OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                   ),
+                  suffixIcon: IconButton(
+                    icon: Icon(passwordVisible
+                        ? Icons.visibility
+                        : Icons.visibility_off),
+                    onPressed: () {
+                      passwordVisible = !passwordVisible;
+                    },
+                  ),
+                  alignLabelWithHint: false,
                 ),
+                keyboardType: TextInputType.visiblePassword,
+                textInputAction: TextInputAction.done,
               ),
             ),
             const SizedBox(height: 20),
@@ -85,9 +96,6 @@ class LoginPage extends StatelessWidget {
                 onPressed: () {
                   String email = emailController.text;
                   String password = passwordController.text;
-
-                  // Luego, puedes realizar la consulta en la base de datos Firestore
-                  // utilizando la función que se proporcionó anteriormente.
                   checkUserCredentials(email, password, context);
                 },
                 style: ElevatedButton.styleFrom(
@@ -125,25 +133,56 @@ final Logger logger = Logger('Login Page');
 Future<void> checkUserCredentials(
     String userEmail, String password, BuildContext context) async {
   try {
-    // Iniciar sesión con el correo y contraseña proporcionados
-    UserCredential userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+    UserCredential userCredential =
+        await FirebaseAuth.instance.signInWithEmailAndPassword(
       email: userEmail,
       password: password,
     );
 
-    // Verificar si el inicio de sesión fue exitoso
     if (userCredential.user != null) {
-      // El inicio de sesión fue exitoso
       logger.info("Inicio de sesión exitoso.");
-
-      // Navega a la página MainPage
       navigateToMainPage(context);
     } else {
-      // El inicio de sesión no fue exitoso
       logger.info("Inicio de sesión fallido.");
+      showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text('Error'),
+            content: Text('Contraseña o usuario incorrecto'),
+            actions: [
+              TextButton(
+                child: Text('OK'),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ],
+          );
+        },
+      );
     }
   } catch (e) {
     logger.severe(e.toString());
+    // Muestra un AlertDialog con el mensaje de error
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Error'),
+          content: Text("Error al iniciar sesión."),
+          actions: [
+            TextButton(
+              child: Text('OK'),
+              onPressed: () {
+                // Cierra el AlertDialog
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 }
 

@@ -35,7 +35,7 @@ class MemePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 30),
+              padding: const EdgeInsets.only(left: 20, right: 20, top: 30, bottom: 30),
               child: Column(
                 children: [
                   Row(

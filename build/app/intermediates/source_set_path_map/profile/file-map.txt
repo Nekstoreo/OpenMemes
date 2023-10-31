@@ -1,8 +1,8 @@
-com.example.flutter_application_openmemes.app-main-0 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/android/app/src/main/res
-com.example.flutter_application_openmemes.app-profile-1 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/android/app/src/profile/res
-com.example.flutter_application_openmemes.app-pngs-2 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/pngs/profile
-com.example.flutter_application_openmemes.app-resValues-3 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/resValues/profile
-com.example.flutter_application_openmemes.app-rs-4 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/generated/res/rs/profile
-com.example.flutter_application_openmemes.app-mergeProfileResources-5 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/incremental/profile/mergeProfileResources/merged.dir
-com.example.flutter_application_openmemes.app-mergeProfileResources-6 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/incremental/profile/mergeProfileResources/stripped.dir
-com.example.flutter_application_openmemes.app-merged_res-7 /home/nekstoreo/Repositorios/OpenMemes/flutter_application_openmemes/build/app/intermediates/merged_res/profile
+com.example.flutter_application_openmemes.app-main-0 /home/nekstoreo/Repositorios/openmemes/android/app/src/main/res
+com.example.flutter_application_openmemes.app-profile-1 /home/nekstoreo/Repositorios/openmemes/android/app/src/profile/res
+com.example.flutter_application_openmemes.app-pngs-2 /home/nekstoreo/Repositorios/openmemes/build/app/generated/res/pngs/profile
+com.example.flutter_application_openmemes.app-resValues-3 /home/nekstoreo/Repositorios/openmemes/build/app/generated/res/resValues/profile
+com.example.flutter_application_openmemes.app-rs-4 /home/nekstoreo/Repositorios/openmemes/build/app/generated/res/rs/profile
+com.example.flutter_application_openmemes.app-mergeProfileResources-5 /home/nekstoreo/Repositorios/openmemes/build/app/intermediates/incremental/profile/mergeProfileResources/merged.dir
+com.example.flutter_application_openmemes.app-mergeProfileResources-6 /home/nekstoreo/Repositorios/openmemes/build/app/intermediates/incremental/profile/mergeProfileResources/stripped.dir
+com.example.flutter_application_openmemes.app-merged_res-7 /home/nekstoreo/Repositorios/openmemes/build/app/intermediates/merged_res/profile

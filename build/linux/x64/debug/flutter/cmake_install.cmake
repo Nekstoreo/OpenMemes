@@ -1,8 +1,8 @@
-# Install script for directory: /home/nekstoreo/Repositorios/flutter_application_openmemes/linux/flutter
+# Install script for directory: /home/nekstoreo/Repositorios/openmemes/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/nekstoreo/Repositorios/openmemes/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
